@@ -5,7 +5,7 @@ export class MyElement extends LitElement{
         who: {
             type: String
         }
-    }
+    };
 
     static getMetaConfig() {
         return {
@@ -32,5 +32,5 @@ export class MyElement extends LitElement{
 
 }
 
-const customElement = "my-table-plugin";
+const customElement = "my-table-v1";
 customElements.define(customElement, MyElement);
