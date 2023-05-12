@@ -29,4 +29,8 @@ export class MyElement extends LitElement{
     render(){
         return html`<p> Hello <p/>`;
     }
+
 }
+
+const customElement = "myTable";
+customElements.define(customElement, MyElement);
