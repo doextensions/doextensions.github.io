@@ -32,5 +32,5 @@ export class MyElement extends LitElement{
 
 }
 
-const customElement = "myTable";
+const customElement = "my-table-plugin";
 customElements.define(customElement, MyElement);
