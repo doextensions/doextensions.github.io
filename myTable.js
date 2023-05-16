@@ -35,7 +35,7 @@ export class CustomTable extends LitElement {
   }
 
   render() {
-    return html`<table border="1" id="tab"> </table>`;
+    return html`<table> </table>`;
   }
 }
 
