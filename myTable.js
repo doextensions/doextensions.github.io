@@ -13,10 +13,15 @@ export class HelloWorld extends LitElement {
       fallbackDisableSubmit: false,
       version: '1.2',
       properties: {
-        who: {
+        spalten: {
           type: 'string',
-          title: 'Who',
-          description: 'Who to say hello to'
+          title: 'Spalten',
+          description: 'Anzahl an Spalten'
+        },
+        zeilen: {
+          type: 'string',
+          title: 'Zeilen',
+          description: 'Anzahl an Zeilen'
         }
       }
     };
@@ -28,10 +33,10 @@ export class HelloWorld extends LitElement {
   }
 
   render() {
-    return html`<p>Hello ${this.who}<p/>`;
+    return html`<table border="1" id="tab"> </table>`;
   }
 }
 
 // registering the web component
-const elementName = 'hello-world';
-customElements.define(elementName, HelloWorld);
+const elementName = 'custom-table';
+customElements.define(elementName, CustomTable);
