@@ -10,7 +10,7 @@ export class HelloWorld extends LitElement {
   // return a promise for contract changes.
   static getMetaConfig() {
     return {
-      controlName: 'Hello World',
+      controlName: 'Custom Table',
       fallbackDisableSubmit: false,
       version: '1.2',
       properties: {
