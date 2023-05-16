@@ -30,7 +30,8 @@ export class CustomTable extends LitElement {
   
   constructor() {
     super();
-    this.who = 'World';
+    this.zeilen = '10';
+    this.spalten = '7';
   }
 
   render() {
