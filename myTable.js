@@ -3,7 +3,8 @@ import { html,LitElement} from 'https://cdn.jsdelivr.net/gh/lit/dist@2/all/lit-a
 export class HelloWorld extends LitElement {
   
   static properties = {
-    who: {type: String},
+    zeilen: {type: String},
+    spalten: {type: String}, 
   };
   
   // return a promise for contract changes.
