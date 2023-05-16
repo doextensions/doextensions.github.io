@@ -845,6 +845,16 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-withsorting')], func
       key: "ColumnHeader5",
       value: void 0
     }, {
+      kind: "field",
+      decorators: [e$1()],
+      key: "ColumnHeader6",
+      value: void 0
+    },{
+      kind: "field",
+      decorators: [e$1()],
+      key: "ColumnHeader7",
+      value: void 0
+    },{
       kind: "method",
       static: true,
       key: "getMetaConfig",
@@ -913,6 +923,14 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-withsorting')], func
             ColumnHeader5: {
               type: 'string',
               title: 'Header for Column5'
+            },
+            ColumnHeader6: {
+              type: 'string',
+              title: 'Header for Column6'
+            },
+            ColumnHeader7: {
+              type: 'string',
+              title: 'Header for Column7'
             }
           }
         };
@@ -937,6 +955,12 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-withsorting')], func
           }, {
             id: 'columnheader5',
             name: this.ColumnHeader5
+          }, {
+            id: 'columnheader6',
+            name: this.ColumnHeader6
+          }, {
+            id: 'columnheader7',
+            name: this.ColumnHeader7
           }],
           data: JSON.parse(this.Data),
           sort: this.sortable
@@ -964,6 +988,12 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-withsorting')], func
             }, {
               id: 'columnheader5',
               name: this.ColumnHeader5
+            }, {
+              id: 'columnheader6',
+              name: this.ColumnHeader6
+            }, {
+              id: 'columnheader7',
+              name: this.ColumnHeader7
             }],
             sort: this.sortable,
             data: JSON.parse(this.Data)
