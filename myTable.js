@@ -839,6 +839,11 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-withsorting')], func
       decorators: [e$1()],
       key: "ColumnHeader4",
       value: void 0
+    },{
+      kind: "field",
+      decorators: [e$1()],
+      key: "ColumnHeader5",
+      value: void 0
     }, {
       kind: "method",
       static: true,
@@ -904,6 +909,10 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-withsorting')], func
             ColumnHeader4: {
               type: 'string',
               title: 'Header for Column4'
+            },
+            ColumnHeader5: {
+              type: 'string',
+              title: 'Header for Column5'
             }
           }
         };
@@ -925,6 +934,9 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-withsorting')], func
           }, {
             id: 'columnheader4',
             name: this.ColumnHeader4
+          }, {
+            id: 'columnheader5',
+            name: this.ColumnHeader5
           }],
           data: JSON.parse(this.Data),
           sort: this.sortable
@@ -949,6 +961,9 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-withsorting')], func
             }, {
               id: 'columnheader4',
               name: this.ColumnHeader4
+            }, {
+              id: 'columnheader5',
+              name: this.ColumnHeader5
             }],
             sort: this.sortable,
             data: JSON.parse(this.Data)
