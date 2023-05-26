@@ -822,7 +822,7 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-withsorting')], func
     }, {
       kind: "field",
       decorators: [e$1()],
-      key: "test",
+      key: "ColumnHeader1",
       value: void 0
     }, {
       kind: "field",
@@ -941,7 +941,7 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-withsorting')], func
       value: function firstUpdated() {
         this.grid = new In({
           columns: [{
-            id: 'columnheader1',
+            id: 'name',
             name: this.ColumnHeader1
           }, {
             id: 'columnheader2',
