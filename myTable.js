@@ -822,7 +822,7 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-withsorting')], func
     }, {
       kind: "field",
       decorators: [e$1()],
-      key: "ColumnHeader1",
+      key: "test",
       value: void 0
     }, {
       kind: "field",
