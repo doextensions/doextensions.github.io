@@ -885,6 +885,7 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-withsorting')], func
 
       function getMetaConfig() {
         // plugin contract information
+        // returns an object containing configuration information for the plugin
         return {
           controlName: 'grid-withsorting',
           description: 'Example of Data Grid with hard-coded data',
@@ -939,6 +940,10 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-withsorting')], func
       kind: "method",
       key: "firstUpdated",
       value: function firstUpdated() {
+
+    // This method is called when the element/component is first updated/rendered.
+    // It creates a new grid instance using the provided data and column headers.
+
         this.grid = new In({
           columns: [{
             id: 'name',
@@ -971,6 +976,9 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-withsorting')], func
       kind: "method",
       key: "render",
       value: function render() {
+    // This method is responsible for rendering the component.
+    // It updates the grid configuration and forces a re-render if the grid instance exists.
+
         if (this.grid) {
           this.grid.updateConfig({
             columns: [{
