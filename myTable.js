@@ -946,7 +946,7 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-withsorting')], func
 
         this.grid = new In({
           columns: [{
-            id: 'name',
+            id: 'test',
             name: this.ColumnHeader1
           }, {
             id: 'columnheader2',
@@ -982,7 +982,7 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-withsorting')], func
         if (this.grid) {
           this.grid.updateConfig({
             columns: [{
-              id: 'name',
+              id: 'test',
               name: this.ColumnHeader1
             }, {
               id: 'columnheader2',
