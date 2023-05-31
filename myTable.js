@@ -961,10 +961,10 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-withsorting')], func
             id: 'Mitarbeiter',
             name: this.ColumnHeader5
           }, {
-            id: 'Aufgabe abgeschlossen',
+            id: 'Aufgabeabgeschlossen',
             name: this.ColumnHeader6
           }, {
-            id: 'Erledigt: von / am',
+            id: 'Erledigt_x003a_von_x002f_am',
             name: this.ColumnHeader7
           }],
           data: JSON.parse(this.Data),
@@ -997,10 +997,10 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-withsorting')], func
               id: 'Mitarbeiter',
               name: this.ColumnHeader5
             }, {
-              id: 'Aufgabe abgeschlossen',
+              id: 'Aufgabeabgeschlossen',
               name: this.ColumnHeader6
             }, {
-              id: 'Erledigt: von / am',
+              id: 'Erledigt_x003a_von_x002f_am',
               name: this.ColumnHeader7
             }],
             sort: this.sortable,
