@@ -946,25 +946,25 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-withsorting')], func
 
         this.grid = new In({
           columns: [{
-            id: 'test',
+            id: 'Title',
             name: this.ColumnHeader1
           }, {
-            id: 'columnheader2',
+            id: 'Werk',
             name: this.ColumnHeader2
           }, {
-            id: 'columnheader3',
+            id: 'Materialart',
             name: this.ColumnHeader3
           }, {
-            id: 'columnheader4',
+            id: 'Abteilung',
             name: this.ColumnHeader4
           }, {
-            id: 'columnheader5',
+            id: 'Mitarbeiter',
             name: this.ColumnHeader5
           }, {
-            id: 'columnheader6',
+            id: 'Aufgabe abgeschlossen',
             name: this.ColumnHeader6
           }, {
-            id: 'columnheader7',
+            id: 'Erledigt: von / am',
             name: this.ColumnHeader7
           }],
           data: JSON.parse(this.Data),
@@ -982,25 +982,25 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-withsorting')], func
         if (this.grid) {
           this.grid.updateConfig({
             columns: [{
-              id: 'test',
+              id: 'Title',
               name: this.ColumnHeader1
             }, {
-              id: 'columnheader2',
+              id: 'Werk',
               name: this.ColumnHeader2
             }, {
-              id: 'columnheader3',
+              id: 'Materialart',
               name: this.ColumnHeader3
             }, {
-              id: 'columnheader4',
+              id: 'Abteilung',
               name: this.ColumnHeader4
             }, {
-              id: 'columnheader5',
+              id: 'Mitarbeiter',
               name: this.ColumnHeader5
             }, {
-              id: 'columnheader6',
+              id: 'Aufgabe abgeschlossen',
               name: this.ColumnHeader6
             }, {
-              id: 'columnheader7',
+              id: 'Erledigt: von / am',
               name: this.ColumnHeader7
             }],
             sort: this.sortable,
