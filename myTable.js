@@ -844,16 +844,6 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-withsorting')], func
       decorators: [e$1()],
       key: "ColumnHeader5",
       value: void 0
-    }, {
-      kind: "field",
-      decorators: [e$1()],
-      key: "ColumnHeader6",
-      value: void 0
-    },{
-      kind: "field",
-      decorators: [e$1()],
-      key: "ColumnHeader7",
-      value: void 0
     },{
       kind: "method",
       static: true,
@@ -924,14 +914,6 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-withsorting')], func
             ColumnHeader5: {
               type: 'string',
               title: 'Header for Column5'
-            },
-            ColumnHeader6: {
-              type: 'string',
-              title: 'Header for Column6'
-            },
-            ColumnHeader7: {
-              type: 'string',
-              title: 'Header for Column7'
             }
           }
         };
@@ -946,26 +928,20 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-withsorting')], func
 
         this.grid = new In({
           columns: [{
-            id: 'Title',
+            id: 'Werk',
             name: this.ColumnHeader1
           }, {
-            id: 'Werk',
+            id: 'Abteilung',
             name: this.ColumnHeader2
           }, {
-            id: 'Materialart',
+            id: 'Mitarbeiter',
             name: this.ColumnHeader3
           }, {
-            id: 'Abteilung',
+            id: 'Aufgabeabgeschlossen',
             name: this.ColumnHeader4
           }, {
-            id: 'Mitarbeiter',
-            name: this.ColumnHeader5
-          }, {
-            id: 'Aufgabeabgeschlossen',
-            name: this.ColumnHeader6
-          }, {
             id: 'Erledigt_x003a_von_x002f_am',
-            name: this.ColumnHeader7
+            name: this.ColumnHeader5
           }],
           data: JSON.parse(this.Data),
           sort: this.sortable
@@ -982,26 +958,20 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-withsorting')], func
         if (this.grid) {
           this.grid.updateConfig({
             columns: [{
-              id: 'Title',
+              id: 'Werk',
               name: this.ColumnHeader1
             }, {
-              id: 'Werk',
+              id: 'Abteilung',
               name: this.ColumnHeader2
             }, {
-              id: 'Materialart',
+              id: 'Mitarbeiter',
               name: this.ColumnHeader3
             }, {
-              id: 'Abteilung',
+              id: 'Aufgabeabgeschlossen',
               name: this.ColumnHeader4
             }, {
-              id: 'Mitarbeiter',
-              name: this.ColumnHeader5
-            }, {
-              id: 'Aufgabeabgeschlossen',
-              name: this.ColumnHeader6
-            }, {
               id: 'Erledigt_x003a_von_x002f_am',
-              name: this.ColumnHeader7
+              name: this.ColumnHeader5
             }],
             sort: this.sortable,
             data: JSON.parse(this.Data)
