@@ -633,7 +633,7 @@ const girdJsStyles = i$3`
   td.gridjs-td:last-child {
     border-right: none;
   }
-  td.gridjs-td:last-child:empty tr {
+  .gridjs-tr td.gridjs-td:last-child:empty {
     background-color: #cc0000;
   }
   td.gridjs-message {
