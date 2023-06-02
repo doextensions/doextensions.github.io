@@ -696,10 +696,6 @@ const girdJsStyles = i$3`
     background-color: #8fce00;
   }
 
-  .gridjs-tr gridjs-td:last-child:empty{
-    background-color: #f44336;
-  }
-
   .gridjs-tr-selected td {
     background-color: #ebf5ff;
   }
