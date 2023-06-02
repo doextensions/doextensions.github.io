@@ -629,7 +629,7 @@ const girdJsStyles = i$3`
   td.gridjs-td {
     border: 1px solid #e5e7eb;
     padding: 12px 24px;
-    background-color: #fff;
+    background-color: #8fce00;
     box-sizing: content-box;
   }
   td.gridjs-td:first-child {
