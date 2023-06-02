@@ -691,7 +691,7 @@ const girdJsStyles = i$3`
     background-color: #8fce00;
   }
 
-  .gridjs-tr.td:last-child:empty tr {
+  .gridjs-tr.td:last-child:empty {
     background-color: #cc0000;
   }
 
