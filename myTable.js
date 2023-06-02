@@ -789,7 +789,7 @@ const girdJsStyles = i$3`
 `;
 const styles = [baseStyle, girdJsStyles];
 
-let NintexSamplegridRepeatingSection = _decorate([e$2('grid-withsortingv1')], function (_initialize, _LitElement) {
+let NintexSamplegridRepeatingSection = _decorate([e$2('grid-withsorting')], function (_initialize, _LitElement) {
   class NintexSamplegridRepeatingSection extends _LitElement {
     constructor(...args) {
       super(...args);
@@ -881,7 +881,7 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-withsortingv1')], fu
         // plugin contract information
         // returns an object containing configuration information for the plugin
         return {
-          controlName: 'grid-withsortingv1',
+          controlName: 'grid-withsorting',
           description: 'Example of Data Grid with hard-coded data',
           groupName: 'Nintex Custom Plugins',
           iconUrl: 'one-line-text',
