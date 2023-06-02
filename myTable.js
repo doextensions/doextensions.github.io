@@ -623,7 +623,7 @@ const girdJsStyles = i$3`
   }
 
   .gridjs-tbody {
-    background-color: #fff;
+    background-color: #8fce00;
   }
 
   td.gridjs-td {
