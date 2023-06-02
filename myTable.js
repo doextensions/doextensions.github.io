@@ -688,6 +688,7 @@ const girdJsStyles = i$3`
 
   .gridjs-tr {
     border: none;
+    background-color: #8fce00;
   }
 
   td.gridjs-td:last-child:empty td {
