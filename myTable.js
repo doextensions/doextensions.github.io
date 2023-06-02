@@ -497,7 +497,7 @@ const girdJsStyles = i$3`
 
   input.gridjs-input {
     outline: none;
-    background-color: #fff;
+    background-color: #8fce00;
     border: 1px solid #d2d6dc;
     border-radius: 5px;
     padding: 10px 13px;
