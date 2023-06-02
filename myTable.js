@@ -632,6 +632,7 @@ const girdJsStyles = i$3`
   }
   td.gridjs-td:last-child {
     border-right: none;
+    background-color: #cc0000;
   }
   td.gridjs-message {
     text-align: center;
@@ -688,10 +689,9 @@ const girdJsStyles = i$3`
 
   .gridjs-tr {
     border: none;
-    background-color: #8fce00;
   }
 
-  td.gridjs-td:last-child:empty td {
+  td.gridjs-td:last-child:empty {
     background-color: #cc0000;
   }
 
