@@ -614,7 +614,7 @@ const girdJsStyles = i$3`
     width: 100%;
     max-width: 100%;
     border-collapse: collapse;
-    text-align: left;
+    text-align: center;
     display: table;
     margin: 0;
     padding: 0;
@@ -693,10 +693,17 @@ const girdJsStyles = i$3`
 
   .gridjs-tr {
     border: none;
+    background-color: #8fce00;
   }
+
+  .gridjs-tr gridjs-td:last-child:empty{
+    background-color: #f44336;
+  }
+
   .gridjs-tr-selected td {
     background-color: #ebf5ff;
   }
+
   .gridjs-tr:last-child td {
     border-bottom: 0;
   }
