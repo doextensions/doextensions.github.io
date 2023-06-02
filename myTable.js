@@ -497,7 +497,6 @@ const girdJsStyles = i$3`
 
   input.gridjs-input {
     outline: none;
-    background-color: #8fce00;
     border: 1px solid #d2d6dc;
     border-radius: 5px;
     padding: 10px 13px;
@@ -622,14 +621,10 @@ const girdJsStyles = i$3`
     table-layout: fixed;
   }
 
-  .gridjs-tbody {
-    background-color: #8fce00;
-  }
 
   td.gridjs-td {
     border: 1px solid #e5e7eb;
     padding: 12px 24px;
-    background-color: #8fce00;
     box-sizing: content-box;
   }
   td.gridjs-td:first-child {
