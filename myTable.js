@@ -633,8 +633,13 @@ const girdJsStyles = i$3`
   td.gridjs-td:last-child {
     border-right: none;
   }
+
+  .gridjs-tr {
+    background-color: #b6d7a8;
+  }
+
   .gridjs-tr:has(td.gridjs-td:last-child:empty) {
-    background-color: #cc0000;
+    background-color: #ea9999;
   }
   td.gridjs-message {
     text-align: center;
