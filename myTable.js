@@ -845,11 +845,6 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-withsorting')], func
       key: "ColumnHeader4",
       value: void 0
     },{
-      kind: "field",
-      decorators: [e$1()],
-      key: "ColumnHeader5",
-      value: void 0
-    },{
       kind: "method",
       static: true,
       key: "getMetaConfig",
@@ -915,10 +910,6 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-withsorting')], func
             ColumnHeader4: {
               type: 'string',
               title: 'Header for Column4'
-            },
-            ColumnHeader5: {
-              type: 'string',
-              title: 'Header for Column5'
             }
           }
         };
@@ -942,12 +933,9 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-withsorting')], func
             id: 'Mitarbeiter',
             name: this.ColumnHeader3
           }, {
-            id: 'Aufgabeabgeschlossen',
-            name: this.ColumnHeader4
-          }, {
             id: 'Erledigt_x003a_von_x002f_am',
-            name: this.ColumnHeader5
-          }],
+            name: this.ColumnHeader4
+          },],
           data: JSON.parse(this.Data),
           sort: this.sortable
         });
@@ -972,12 +960,9 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-withsorting')], func
               id: 'Mitarbeiter',
               name: this.ColumnHeader3
             }, {
-              id: 'Aufgabeabgeschlossen',
-              name: this.ColumnHeader4
-            }, {
               id: 'Erledigt_x003a_von_x002f_am',
-              name: this.ColumnHeader5
-            }],
+              name: this.ColumnHeader4
+            },],
             sort: this.sortable,
             data: JSON.parse(this.Data)
           });
