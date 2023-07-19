@@ -1,0 +1,46 @@
+[dir] .nx-theme-styles .nx-theme-richtext h1 {
+    color: #e1325a;
+}
+
+[dir] .nx-theme-styles .nx-theme-form { 
+	background-color: #ececec; 
+    font-family: Arial;
+}
+
+[dir] .nx-theme-styles .nx-theme-form .nx-theme-button-1 { 
+  background-color: #e1325a; 
+  color: white; 
+  text-transform: uppercase; 
+  border-width: 1px;
+  border-color: white;
+}
+
+[dir] .nx-theme-styles .nx-theme-form .nx-theme-label-1 { 
+  text-align: right; 
+  color: #3c3c3c;  
+}
+
+[dir] .nx-theme-styles .nx-theme-form .nx-theme-input-1 { 
+  background-color: white; 
+  color: #3c3c3c;
+  border-radius: 5px;
+}
+
+[dir] .nx-theme-styles .nx-theme-page {
+  background-color: white;
+}
+
+[dir] .nx-theme-styles .nx-theme-datepicker-1 .flatpickr-action-todayBtn{
+    color: white;
+    border-color: white;
+    background-color: #e1325a;
+}
+
+[dir] .nx-has-error .nx-error-message, .nx-nested-form-has-error .nx-error-message {
+    background-color: #e1325a;
+    color: white;
+    border: 1px solid #e1325a;
+}
+
+
+
